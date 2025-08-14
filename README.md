@@ -1,7 +1,4 @@
-# My Remote Desktop Application
-This is a Prototype
-
-# Remote Desktop Client
+# Remote Desktop App 
 
 A secure Python-based remote desktop application that allows authorized users to connect to and control Windows computers remotely.
 
@@ -34,23 +31,14 @@ A secure Python-based remote desktop application that allows authorized users to
 
 ### Method 1: Automatic Setup (Recommended)
 1. Download or clone this repository
-2. Open PowerShell or Command Prompt
-3. Navigate to the `RemoteDesktopApp` folder
-4. Run: `python setup.py`
-5. Follow the on-screen instructions
-
-### Method 2: Manual Installation
-1. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-   Or install packages individually:
-   ```bash
-   pip install Pillow pyautogui pynput pywin32
-   ```
+2. Navigate to the `RemoteDesktopApp` folder
+3. Run: `python setup.py`
+4. Follow the on-screen instructions
 
 ## 📖 Usage
+Client is the one that going to be controled.
+And The Host is the one who is controlling.
+Just Like Team Whatever It Was.
 
 ### 🖥️ Host Computer (Being Controlled)
 
@@ -92,7 +80,7 @@ A secure Python-based remote desktop application that allows authorized users to
    - Enable **"Auto Refresh"** for continuous screen updates
    - Click, double-click, right-click, and type normally to control the remote computer
 
-5. **Transfer Files**
+6. **Transfer Files**
    - Use the **"File Transfer"** tab
    - **Send files**: Click "Select and Send File" to send files to the host
    - **Receive files**: Click "Request File from Host" and the host can choose a file to send you
@@ -166,27 +154,6 @@ If you're having connection issues, you may need to allow the application throug
 2. Click "Allow an app through firewall"
 3. Add `python.exe` or the specific application
 
-
-## 📝 File Structure
-
-```
-RemoteDesktopApp/
-├── host_app.py          # Host/Server application
-├── client_app.py        # Client application
-├── setup.py             # Installation and setup script
-├── requirements.txt     # Python dependencies
-└── README.md           # This documentation file
-```
-
-## ⚖️ Legal Disclaimer
-
-This software is intended for legitimate remote access purposes such as:
-- Accessing your own computers remotely
-- Providing technical support with permission
-- Educational and learning purposes
-
-**Important**: Only use this software on computers you own or have explicit permission to access. Unauthorized remote access is illegal and unethical.
-
 ## 🤝 Support
 
 If you encounter issues:
@@ -203,7 +170,10 @@ If you encounter issues:
 - Authorization-based connections
 - Windows-only support
 - GUI interface for both host and client
+- Full Screen Option
+- Automatic Network Speed Configuration
 
----
 
-**Made with ❤️ for secure remote desktop access**
+----
+
+Do Whatever You Want To Do Like Hacking People By Secretly Installing it On A Target.    ༼ つ ◕_◕ ༽つ 
