@@ -1,4 +1,4 @@
-# Remote Desktop App 
+# Remote Desktop Application 
 
 A secure Python-based remote desktop application that allows authorized users to connect to and control Windows computers remotely.
 
